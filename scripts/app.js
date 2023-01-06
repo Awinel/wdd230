@@ -1,3 +1,3 @@
-const h1 = document.querySelector("h1");
-
-h1.textContent = "Hello World";
+const copyright = document.querySelector("#copyright");
+const currentYear = new Date().getFullYear();
+copyright.textContent = "© " + currentYear + " ";
