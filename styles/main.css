@@ -2,6 +2,7 @@ header {
     background-color: rgb(1, 129, 129);
     border-radius: 20px;
     box-shadow: 10px 10px 20px rgb(1, 73, 73) inset;
+    text-align: center;
 }
 
 header img {
@@ -13,13 +14,10 @@ header img {
 
 h1 {
     padding: 10px;
+    
 }
 
-main h2 {
-    font-size: 2em;
-    padding-left: 2em;
-    font: bold;
-}
+
 
 #lessonsContent {
     border-top: 1px solid grey;
