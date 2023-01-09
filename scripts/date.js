@@ -6,7 +6,7 @@ const currentYear = document.querySelector("#copyright");
 
 currentYear.textContent =  year + " ";
 
-let lastModif = new Date(document.lastModified);
+let lastModif = new Date(document.lastModified)
 
 let lmDay = lastModif.getDate();
 
