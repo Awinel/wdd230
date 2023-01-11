@@ -8,6 +8,6 @@
         grid-column: 1 / -1;
     }
     h2 {
-        padding-left: 0;
+        font-size: 2em;
     }
 }
