@@ -1,6 +1,6 @@
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 1024px) {
     body {
-        max-width: 840px;
+        max-width: 80%;
         margin: auto;
     }
 
@@ -27,7 +27,15 @@
 
     main h2 {
         font-size: 2em;
-        padding-left: 2em;
         font: bold;
+    }
+    /* design principle  */
+
+    #grid {
+     grid-template-columns: 1fr 1fr 1fr;   
+    }
+
+    #first, #second, #third {
+        grid-column: auto;
     }
 }
