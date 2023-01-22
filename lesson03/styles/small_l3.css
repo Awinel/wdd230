@@ -1,19 +1,85 @@
-body {
-    text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&family=Roboto:wght@300&display=swap');
 
-/* nav ul li {
-    border: 1px solid ;
+body {
     
-} */
+    text-align: center;
+    background-color: #FEFAE0;
+}
 
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
-    background-color: aqua;
+    padding: 10px;
+    background-color: #DDA15E;
+    font-size: 1.5em;
+}
+
+#container img {
+    max-width: 10%;
+}
+
+#container {
+    
+    display: block;
+    
 }
 
 nav ul li a {
     text-decoration: none;
+}
+
+table {
+    margin: auto;
+    background-color: white;
+}
+
+td {
+    border: solid 1px;
+    padding: 1em;
+}
+
+#primary {
+    background-color: #FEFAE0;
+    color: black;
+}
+
+#secondary {
+    background-color: #DDA15E;
+    color: black;
+}
+
+#accent_1 {
+    background-color: #415D43;
+    color: black;
+}
+
+#accent_2 {
+    background-color: #709775;
+    color: black;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-family: 'Abhaya Libre', serif;
+}
+
+#heading {
+    font-family: 'Roboto', sans-serif;
+}
+
+#paragraph {
+    font-family: 'Abhaya Libre', serif;
+}
+
+#colored_p {
+    background-color: #709775;
+}
+
+footer {
+    background-color: #DDA15E;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
 }
