@@ -1,0 +1,93 @@
+body {
+    max-width: 1fr;
+    margin: 0;
+    background-color: #FEFAE0;
+}
+
+main {
+    margin: 10px;
+}
+/* banner */
+
+#banner img {
+    max-width: 10rem;
+    margin-right: 5vw;
+}
+#banner {
+    display: flex;
+}
+#date {
+    text-align: center;
+    font-size: 1.5em;
+    padding: 2vw;
+    
+}
+/* banner */
+
+/*Start of Hamburger navigation designed */
+header button {
+    margin: .2rem 2vw;
+    background: transparent;
+    border-radius: 10px;
+    border: 2px rgb(87, 85, 85) solid;
+    font-size: 2rem;
+    color: #555;
+    
+}
+
+header, nav {
+    background-color: #709775;
+}
+
+nav {
+    text-align: end;
+}
+
+
+nav ul {
+    text-align: left;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: #333;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+nav ul li.active a {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+}
+
+nav ul {
+    display: none;
+}
+
+nav ul.open {
+    display: block;
+}
+
+#hamburgerBtn span:nth-child(1) {display: block;}
+#hamburgerBtn span:nth-child(2) {display: none;}
+
+#hamburgerBtn.open span:nth-child(1) {display: none;}
+#hamburgerBtn.open span:nth-child(2) {display: block;}
+/* End of Hamburger navigation designed */
+
+/* footer */
+footer {
+    text-align: center;
+    background-color: #709775;
+    font-size: 1.5rem;
+}
+/* footer */
