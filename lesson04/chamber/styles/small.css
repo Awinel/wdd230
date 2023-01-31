@@ -1,11 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&family=Roboto:wght@300&display=swap');
+
 body {
     max-width: 1fr;
     margin: 0;
     background-color: #FEFAE0;
 }
 
+h1, h2 {
+    font-family: 'Abhaya Libre', serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
 main {
     margin: 10px;
+    text-align: center;
 }
 /* banner */
 
@@ -49,6 +60,7 @@ nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
+    font-size: 1.5rem;
 }
 
 nav ul li a {
@@ -84,10 +96,41 @@ nav ul.open {
 #hamburgerBtn.open span:nth-child(2) {display: block;}
 /* End of Hamburger navigation designed */
 
+/* main */
+
+
+
+main div {
+    background-color: #DDA15E;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    width: auto;
+    height: 300px;
+    
+}
+#spotlight {
+    display: none;
+}
+
+/* main */
+
 /* footer */
 footer {
     text-align: center;
     background-color: #709775;
     font-size: 1.5rem;
+    padding-top: 1vw;
 }
+footer div span {
+    display: flex;
+    justify-content: center;
+}
+
+#footerLogo {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+footer div img {
+    max-width: 30%;
+}
+
 /* footer */
