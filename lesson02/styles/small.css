@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600&family=Merriweather+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+header {
+    background-color: rgb(1, 129, 129);
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgb(1, 73, 73) inset;
+    text-align: center;
+}
+
+header img {
+    margin: 20px;
+    width: 10em;
+    box-shadow: 10px 10px 20px;
+    border-radius: 5px;
+}
+
+h1 {
+    font-family: 'Merriweather Sans', sans-serif;
+    padding: 10px;
+    
+}
+
+a {
+    display: block;
+    margin: 5px;
+}
+
+h2 {
+    font-family: 'Crimson Text', serif;
+    padding-left: .5em;
+}
+
+main {
+    padding: 0.5em;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+main img {
+    max-width: 100%;
+}
+
+main div h2 {
+    background-color: rgb(1, 129, 129);
+    margin-top: 0;
+    border-bottom: 2px solid rgb(37, 46, 46);
+}
+
+#first, #second, #third {
+    border: 2px solid rgb(37, 46, 46);
+    margin: .5em;
+    
+    border-radius: 5px;
+    background-color: rgb(228, 240, 228);
+}
+
+#lessonsContent {
+    text-align: start;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    margin-bottom: 30px;
+}
+
+main div ul li a {
+    display: inline;
+}
+
+footer {
+    color: white;
+    background-color: rgb(1, 129, 129);
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 10px 10px 50px rgb(6, 58, 94) inset;
+}
+
+#lastmodif {
+    padding-top: 10px;
+    color:gold;
+}
