@@ -1,10 +1,84 @@
 @media only screen and (min-width: 64rem) {
     #largeView {
         display: grid;
-        grid-template-columns: auto;
+        grid-template-columns: repeat(8, 1fr);
     }
-
     #banner {
+        display: grid;
+    }
+    
+    #banner h1 {
+        font-size: 2rem;
+    }
+    
+    nav ul {
         display: block;
     }
+
+    nav ul li a {
+        border: none;
+    }
+
+    #hamburgerBtn {
+        display: none;
+    }
+
+    #primaryNav {
+        display: flex;
+        margin-top: 5vw;
+        font-size: 2rem;
+    }
+
+    
+    header {
+        grid-column: 1 / 4;
+    }
+
+    nav {
+        grid-column: 4 / 9;
+    }
+
+    main {
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    #callAction, #newRelease,  #spotlight01, #spotlight02, #join, #event, #weather{
+        height: auto;
+    }
+
+    #callAction {
+        grid-column: 2 / 5;
+        grid-row: 1 / 3;
+    }
+
+    #newsRelease {
+        grid-column: 2 / 5;
+        grid-row: 3 / 4;
+    }
+
+    #spotlight01 {
+        grid-column: -2 / -1;
+        grid-row: 1 / 3;
+    }
+    #spotlight02 {
+        grid-column: -2 / -1;
+        grid-row: 3 / 4;
+    }
+
+    #join {
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+    }
+
+    #event {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+
+    #weather {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+
 }
