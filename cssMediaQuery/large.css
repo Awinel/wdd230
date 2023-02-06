@@ -1,0 +1,10 @@
+@media only screen and (min-width: 64rem) { 
+    body {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin: 20px;
+        background-color: rgb(10, 9, 9);
+        color: rgb(199, 194, 194);
+    }
+}
