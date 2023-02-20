@@ -112,7 +112,7 @@ main div {
 }
 
 #callAction  {
-    background-image: url("/lesson04/chamber/images/flowers.png");
+    background-image: url("/lesson04/chamber/images/flowers.jpg");
     background-size: cover;
     text-align: left;
 }   
@@ -134,8 +134,10 @@ main div {
     color: white;
 }
 
-#wheater {
-    margin: 0;
+#wheater p {
+    color: #fff;
+    font-size: 25px;
+
 }
 
 

@@ -1,39 +1,28 @@
-// Declaring the variables
-let lon;
-let lat;
-let temperature = document.querySelector(".temp");
-let summary = document.querySelector(".summary");
-let loc = document.querySelector(".location");
-let icon = document.querySelector(".icon");
-const kelvin = 273;
-
-window.addEventListener("load", () => {
-if (navigator.geolocation) {
-	navigator.geolocation.getCurrentPosition((position) => {
-	console.log(position);
-	lon = position.coords.longitude;
-	lat = position.coords.latitude;
-
-	// API ID
-	const api = "9f8b0bd6dd93dd0304dbd9b7c37628af";
-
-	// API URL
-	const base =
-`http://api.openweathermap.org/data/2.5/weather?lat=${lat}&` +
-`lon=${lon}&appid=9f8b0bd6dd93dd0304dbd9b7c37628af`;
-
-	// Calling the API
-	fetch(base)
-		.then((response) => {
-		return response.json();
-		})
-		.then((data) => {
-		console.log(data);
-		temperature.textContent =
-			Math.floor(data.main.temp - kelvin) + "°C";
-		summary.textContent = data.weather[0].description;
-		loc.textContent = data.name + "," + data.sys.country;
-		});
-	});
+const api = {
+    key: "9f8b0bd6dd93dd0304dbd9b7c37628af",
+    base: "https://api.openweathermap.org/data/2.5/"
 }
-});
+const currentWeather = fetch(`${api.base}weather?q=Vallenar&units=metric&APPID=${api.key}`)
+.then(weather => weather.json()).then(displayResults);
+
+function displayResults(weather) {
+    // console.log(weather);
+    let city = document.querySelector("#weather .city");
+    city.textContent = `${weather.name}, ${weather.sys.country}`;
+
+    let now = new Date();
+
+    let temp = document.querySelector("#weather .temp");
+    temp.textContent = `${Math.round(weather.main.temp)}°C`;
+
+    let weather_el = document.querySelector("#weather .weather");
+    weather_el.textContent = weather.weather[0].main;
+
+	let windChill = weather.wind.speed
+
+	let convertion = (windChill * 3600) / 1000;
+
+    let wind = document.querySelector("#weather .windChill");
+    wind.textContent = `${Math.round(convertion)} k/m`;
+	
+}
