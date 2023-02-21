@@ -112,7 +112,7 @@ main div {
 
 #callAction  {
     text-align: left;
-    background-image: url("/WDD230/wdd230/lesson04/chamber/images/wdd230-org.jpg");
+    background-image: url("/wdd230/lesson04/chamber/images/wdd230-org.jpg");
     background-size: cover;
 } 
 
@@ -140,7 +140,7 @@ main div {
     place-items: center;
     color: #fff;
     font-size: 20px;
-    background-image: url(/WDD230/wdd230/lesson04/chamber/images/green-01.jpg);
+    background-image: url("/wdd230/lesson04/chamber/images/green-01.jpg");
     background-size: cover;
 }
 
