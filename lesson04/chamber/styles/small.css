@@ -39,8 +39,7 @@ main {
 header button {
     margin: .2rem 2vw;
     background: transparent;
-    border-radius: 10px;
-    border: 2px rgb(87, 85, 85) solid;
+    border: none;
     font-size: 2rem;
     color: #555;
     
@@ -112,10 +111,10 @@ main div {
 }
 
 #callAction  {
-    background-image: url("/lesson04/chamber/images/flowers.jpg");
-    background-size: cover;
     text-align: left;
-}   
+    background-image: url("/WDD230/wdd230/lesson04/chamber/images/wdd230-org.jpg");
+    background-size: cover;
+} 
 
 #callAction h2 {
     margin-left: 2rem;
@@ -134,10 +133,46 @@ main div {
     color: white;
 }
 
-#wheater p {
+#weather {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    place-items: center;
     color: #fff;
-    font-size: 25px;
+    font-size: 20px;
+    background-image: url(/WDD230/wdd230/lesson04/chamber/images/green-01.jpg);
+    background-size: cover;
+}
 
+#weather :nth-child(1) {
+    font-size: 40px;
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+    margin-bottom: 5px;
+    text-shadow: 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+#weather :nth-child(2) {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+#weather :nth-child(3) {
+font-size: 30px;
+text-shadow: 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+#weather :nth-child(4) {
+    font-size: 40px;
+    grid-column: 1 / -1;
+    margin: 5px 0px;
+    text-shadow: 2px 4px rgba(0, 0, 0, 0.6);
+
+}
+
+#weather :nth-child(5), :nth-child(6) {
+    font-size: 20px;
+    text-shadow: 2px 4px rgba(0, 0, 0, 0.6);
 }
 
 
