@@ -112,8 +112,9 @@ main div {
 
 #callAction  {
     text-align: left;
-    background-image: url("/wdd230/lesson04/chamber/images/wdd230-org.jpg");
+    background-image: url("/wdd230/lesson04/chamber/images/flowers-02.webp");
     background-size: cover;
+    background-position: center;
 } 
 
 #callAction h2 {
