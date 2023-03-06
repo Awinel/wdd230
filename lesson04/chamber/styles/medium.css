@@ -88,7 +88,19 @@
 }
 
 #discover #discover_images picture img {
-    width: 50%;
+    width: 40%;
+    border: outset 10px rgb(62, 158, 134)
+}
+
+#discover #discover_images picture img:hover {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 1s ease;
+}
+
+#discover #discover_images picture img {
+    transition: 1s ease;
 }
 
 #discover #discover_images p {
