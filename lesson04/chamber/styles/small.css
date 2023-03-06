@@ -171,11 +171,10 @@ text-shadow: 2px 4px rgba(0, 0, 0, 0.6);
 
 }
 
-#weather :nth-child(5), :nth-child(6) {
+#weather :nth-child(5) {
     font-size: 20px;
     text-shadow: 2px 4px rgba(0, 0, 0, 0.6);
 }
-
 
 /* main */
 
@@ -200,3 +199,37 @@ footer div img {
 }
 
 /* footer */
+
+/* discover.html */
+
+#visits {
+    text-align: center;
+    padding: 5px;
+    margin: 1%;
+    background-color: #DDA15E;
+    border-radius: 10px 30px 10px 30px;
+    font-size: 20px;
+}
+
+main #discover_images picture {
+    width: 50%;
+}
+
+main #discover_images picture img {
+ width: 100%;
+}
+
+#discover_images {
+    height: auto;
+    padding: 20px;
+    
+}
+
+.discover_img[data-src] {
+    filter: blur(1.2em);
+}
+  
+.discover_img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+}

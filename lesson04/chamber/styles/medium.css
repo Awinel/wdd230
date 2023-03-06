@@ -79,3 +79,19 @@
         align-self: center;
     }
 }
+
+/* discover.html */
+
+#discover  {
+ display: flex;
+ flex-direction: column;
+}
+
+#discover #discover_images picture img {
+    width: 50%;
+}
+
+#discover #discover_images p {
+    margin-left: 25%;
+    margin-right: 25%;
+}
