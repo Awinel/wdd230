@@ -36,3 +36,7 @@ const currentDate = `${day}, ${currentMonth} ${year}`
 
 const today = document.getElementById("date");
 today.textContent = currentDate
+
+const submit = document.getElementById("time");
+
+submit.nodeValue = new Date();
