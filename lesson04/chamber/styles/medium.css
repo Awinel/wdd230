@@ -137,4 +137,15 @@
     textarea {
         width: 100%;
     }
+
+/* -----------------------------thankyou.html----------------------------- */
+    
+    #joinSubmission {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #joinSubmission div {
+        font-size: 1.3rem;
+    }
 }

@@ -206,7 +206,7 @@ footer div img {
     text-align: center;
     padding: 5px;
     margin: 1%;
-    background-color: #DDA15E;
+    background-color: #dda15e;
     border-radius: 10px 30px 10px 30px;
     font-size: 20px;
 }
@@ -295,3 +295,14 @@ form input.submitBtn:hover {
 }
 
 /* -----------------------------thankyou.html----------------------------- */
+
+#joinSubmission {
+    background-image: url(/wdd230/lesson04/chamber/images/discover_01.webp);
+    background-position: 100%;
+    background-size: cover;
+    
+}
+
+#joinSubmission div {
+    background-color: rgba(221, 161, 94, 0.6);
+}
