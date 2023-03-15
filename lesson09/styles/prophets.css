@@ -1,0 +1,30 @@
+main div section {
+    margin: 0.25rem;
+    padding: 0.35rem;
+    border: 1px solid #bbb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(219, 219, 219);
+}
+
+main div {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    background-color: #362d2db6;
+    padding: 1%;
+    box-shadow: 0 0 30px #070707;
+}
+
+img {
+    width: auto;
+	max-width: 320px;
+    box-shadow: 0 0 30px #777;
+    height: 300px;
+    border: 10px ridge #6d2a2a;
+}
+
+footer, h1 {
+    text-align: center;
+    color: #632525b6;
+}
