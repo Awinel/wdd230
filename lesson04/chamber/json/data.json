@@ -1,94 +1,94 @@
 {
     "directory": [
         {
-            "businesstype":"",
-            "businessname":"",
-            "businesshour":"",
-            "url":"",
-            "direction":"",
-            "phone":"",
-            "imageurl":""
+            "businesstype":"Food",
+            "businessname":"Entretacos",
+            "businesshour":"9:00 A.M. - 10:30 P.M.",
+            "instagram":"https://www.instagram.com/entre_tacos_vallenar_/?hl=es",
+            "direction":"Av Costanera esquina jjvallejos",
+            "phone":"+56956937472",
+            "imageurl":"images/entretacos_logo.jpg"
         },
         {
-            "businesstype":"",
-            "businessname":"",
-            "businesshour":"",
-            "url":"",
-            "direction":"",
-            "phone":"",
-            "imageurl":""
+            "businesstype":"Food",
+            "businessname":"Latitud Norte Gastro Bar",
+            "businesshour":"11:00 A.M. - 01:00 A.M.",
+            "instagram":"https://www.instagram.com/latitudnorte.cl/?hl=es",
+            "direction":"Calle Talca 622",
+            "phone":"+56987766824",
+            "imageurl":"images/latitud_norte_logo.jpg"
         },
         {
-            "businesstype":"",
-            "businessname":"",
-            "businesshour":"",
-            "url":"",
-            "direction":"",
-            "phone":"",
-            "imageurl":""
+            "businesstype":"Food",
+            "businessname":"Entre Cumbres International Restaurant",
+            "businesshour":"01:00 P.M. - 11:30 P.M.",
+            "instagram":"https://entre-cumbres-restaurant.business.site/?utm_source=gmb&utm_medium=referral",
+            "direction":"Avenida Costanera 2567",
+            "phone":"+56972052056",
+            "imageurl":"images/entrecumbres_logo.jpg"
         },
         {
-            "businesstype":"",
-            "businessname":"",
-            "businesshour":"",
-            "url":"",
-            "direction":"",
-            "phone":"",
-            "imageurl":""
+            "businesstype":"Food",
+            "businessname":"Museo del Pisco",
+            "businesshour":"01:00 P.M. - 01:00 A.M.",
+            "instagram":"https://www.instagram.com/museo_del_pisco/",
+            "direction":"Calle Chungara 1427",
+            "phone":"+56512416861",
+            "imageurl":"images/museo_pisco_logo.jpg"
         },
         {
-            "businesstype":"",
-            "businessname":"",
-            "businesshour":"",
-            "url":"",
-            "direction":"",
-            "phone":"",
-            "imageurl":""
+            "businesstype":"Food",
+            "businessname":"Yoyo's Bar",
+            "businesshour":"12:00 P.M. - 01:00 A.M.",
+            "instagram":"none",
+            "direction":"Serrano",
+            "phone":"+56955112075",
+            "imageurl":"images/yoyo_logo.jpg"
         },
         {
-            "businesstype":"",
-            "businessname":"",
-            "businesshour":"",
-            "url":"",
-            "direction":"",
-            "phone":"",
-            "imageurl":""
+            "businesstype":"Barbershop",
+            "businessname":"Kraken Premium Barbershop",
+            "businesshour":"08:00 A.M. - 06:00 P.M.",
+            "instagram":"https://www.instagram.com/krakenpremiumbarbershop/?hl=es",
+            "direction":" Prat 977, Galería Corona del Inca, local 4 segundo piso",
+            "phone":"+56945787884",
+            "imageurl":"images/kraken_logo.jpg"
         },
         {
-            "businesstype":"",
-            "businessname":"",
-            "businesshour":"",
-            "url":"",
-            "direction":"",
-            "phone":"",
-            "imageurl":""
+            "businesstype":"SwimingPool",
+            "businessname":"Tambo Luna",
+            "businesshour":"11:00 A.M. - 19:00 P.M.",
+            "instagram":"https://www.instagram.com/tambolunaparque/?hl=es",
+            "direction":"Callejón Martinez 11",
+            "phone":"+56956090526",
+            "imageurl":"images/tambo_luna.jpg"
         },
         {
-            "businesstype":"",
-            "businessname":"",
-            "businesshour":"",
-            "url":"",
+            "businesstype":"Cinema",
+            "businessname":"Cine Vallenar",
+            "businesshour":"03:00 P.M. - 11:30 P.M.",
+            "instagram":"https://www.instagram.com/cine_vallenar_/?hl=es",
             "direction":"",
-            "phone":"",
-            "imageurl":""
+            "phone":"948794741",
+            "imageurl":"images/cinema.png"
         },
         {
-            "businesstype":"",
-            "businessname":"",
-            "businesshour":"",
-            "url":"",
-            "direction":"",
-            "phone":"",
-            "imageurl":""
+            "businesstype":"Gym",
+            "businessname":"Deportivo algarrobo",
+            "businesshour":"08:00 A.M. - 10:30 P.M.",
+            "instagram":"https://www.instagram.com/deportivoalgarrobo_vallenar/?hl=es",
+            "direction":"Avenida Costanera Sur 2136",
+            "phone":"(51)2614122",
+            "imageurl":"images/gym.jpg"
         },
         {
-            "businesstype":"",
-            "businessname":"",
-            "businesshour":"",
-            "url":"",
-            "direction":"",
-            "phone":"",
-            "imageurl":""
+            "businesstype":"Hotel",
+            "businessname":"Hotel Puerto de Vega",
+            "businesshour":"24 Hours",
+            "instagram":"https://www.instagram.com/puertodevegahotel/",
+            "direction":"Ramírez 201",
+            "phone":"+56998906953",
+            "imageurl":"images/hotel.png"
         }
 
     ]

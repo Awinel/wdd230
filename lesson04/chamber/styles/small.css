@@ -306,3 +306,51 @@ form input.submitBtn:hover {
 #joinSubmission div {
     background-color: rgba(221, 161, 94, 0.6);
 }
+
+/* -----------------------------directory.html----------------------------- */
+
+main#directory {
+    display: block;
+}
+
+#directory div {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+div.cards {
+    height: auto;
+}
+
+div.cards section {
+    border: 3px solid #415D43;
+    border-radius: 2%;
+    margin: 5px;
+    background-color: #415D43;
+}
+
+div.cards section:hover {
+    animation: shake 3s alternate infinite;
+
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+div.cards img {
+    margin: 5%;
+    border-radius: 5%;
+}
+
+
