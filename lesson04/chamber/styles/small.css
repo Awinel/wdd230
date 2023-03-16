@@ -115,14 +115,32 @@ main div {
     background-image: url("/wdd230/lesson04/chamber/images/flowers-02.webp");
     background-size: cover;
     background-position: center;
-} 
+}
+
+#callAction h2 {
+    font-size: 4rem;
+}
+
+#event p {
+    margin-top: 10%;
+}
+
+#event picture {
+    width: 20%;
+}
+
+#event picture img {
+    width: 90%;
+    border-radius: 5%;
+}
 
 #callAction h2 {
     margin-left: 2rem;
     margin-top: 2rem;
 }
 #callAction button {
-    margin-left: 10rem;
+    margin-left:75%;
+    margin-top: 75%;
     padding: 10px;
     border-radius: 5px;
     border: none;
@@ -174,6 +192,30 @@ text-shadow: 2px 4px rgba(0, 0, 0, 0.6);
 #weather :nth-child(5) {
     font-size: 20px;
     text-shadow: 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+#spotlight01 picture {
+    width: 100%;
+}
+
+#spotlight01 picture img {
+    margin-top: 40%;
+    width: 50%;
+}
+
+#spotlight01 button{
+    padding:20px 80px;
+    border-radius: 20px;   
+    background-color: #fff;
+    border: 2px solid #709775;
+    transition: .3s;
+}
+
+#spotlight01 button:hover {
+    background-color: #709775;
+    font-size: 1rem;
+    color: #fff;
+    transition: .3s;
 }
 
 /* main */
