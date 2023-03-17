@@ -56,24 +56,53 @@
         grid-row: 3 / 4;
     }
 
+    #newsRelease p {
+        margin: 15% 0;
+    }
+
     #spotlight01 {
         grid-column: -2 / -1;
         grid-row: 1 / 3;
         height: auto;
     }
+
+    #spotlight01 picture img {
+        width: 80%;
+    }
+
+    #spotlight01 span {
+        display: block;
+    }
+
     #spotlight02 {
         grid-column: -2 / -1;
         grid-row: 3 / 4;
     }
 
-    #join {
+    #spotlight02 span p {
+        margin: 20% 20px;
+    }
+
+    #join-us {
         grid-column: 1 / 2;
         grid-row: 3 / 4;
+    }
+
+    #join-us span p {
+        margin: 50px 0;
     }
 
     #event {
         grid-column: 1 / 2;
         grid-row: 1 / 2;
+    }
+
+    #event p {
+        margin: 20% 0;
+    }
+
+    #event picture img {
+        width: 80%;
     }
 
     #weather {

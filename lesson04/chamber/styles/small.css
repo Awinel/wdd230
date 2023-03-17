@@ -130,7 +130,7 @@ main div {
 }
 
 #event picture img {
-    width: 90%;
+    width: 50%;
     border-radius: 5%;
 }
 
@@ -139,11 +139,11 @@ main div {
     margin-top: 2rem;
 }
 #callAction button {
-    margin-left:75%;
-    margin-top: 75%;
-    padding: 10px;
+    margin-left: 55%;
+    margin-top: 10%;
+    padding: 20px;
     border-radius: 5px;
-    border: none;
+    border: 1px solid ;
     font-size: larger;
 }
 
@@ -194,13 +194,12 @@ text-shadow: 2px 4px rgba(0, 0, 0, 0.6);
     text-shadow: 2px 4px rgba(0, 0, 0, 0.6);
 }
 
-#spotlight01 picture {
+#spotlight01 picture, #spotlight02 picture {
     width: 100%;
 }
 
 #spotlight01 picture img {
-    margin-top: 40%;
-    width: 50%;
+    width: 40%;
 }
 
 #spotlight01 button{
@@ -216,6 +215,42 @@ text-shadow: 2px 4px rgba(0, 0, 0, 0.6);
     font-size: 1rem;
     color: #fff;
     transition: .3s;
+}
+
+#spotlight01 span {
+    display: none;
+}
+
+#spotlight02 picture img {
+    width: 20%;
+}
+
+#spotlight02 span p {
+    margin: 10% 20%;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px 0;
+}
+
+
+#join-us {
+    background-image: url("/wdd230/lesson04/chamber/images/join-us.jpg");
+    background-size: cover;
+}
+#join-us span p {
+    margin: 20% 20%;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px 0;
+}
+
+#newsRelease {
+    background-image: url("/wdd230/lesson04/chamber/images/newrelease.jpg");
+    background-size: cover;
+    color: #fff;
+}
+
+#spotlight02 {
+    background-image: url("/wdd230/lesson04/chamber/images/colors.jpg");
+    background-size: contain;
 }
 
 /* main */

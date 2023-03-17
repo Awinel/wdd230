@@ -33,6 +33,12 @@
         background-position: center;
     }
 
+    #callAction button {
+        margin: 0;
+        margin-left: 75%;
+        margin-top: 15%;
+    }
+
     #newsRelease {
         grid-column: 1 /-1;
         grid-row: 2 / 3;
@@ -45,16 +51,53 @@
     #spotlight02 {
         grid-column: 3 / 5;
         grid-row: 3 / 4;
+        background-size: cover;
     }
 
-    #join {
+    #spotlight01 picture, #spotlight02 picture {
+        width: 100%;
+    }
+
+    #spotlight01 picture img {
+        width: 40%;
+    }
+    #spotlight01 span {
+        display: none;
+    }
+
+    #spotlight02 picture img {
+        width: 20%;
+    }
+
+    #spotlight02 span p {
+        margin-top: 50px;
+    }
+
+    #join-us{
         grid-column: 1 /-1;
         grid-row: 4 / 5;
+        
+    }
+
+    #join-us span p {
+        margin: 80px 200px;
     }
 
     #event {
         grid-column: 1 / 4;
         grid-row: 5 / 6;
+    }
+
+    #event p {
+        margin: 30px 100px;
+    }
+
+    #event picture {
+        width: 100%;
+    }
+
+    #event picture img {
+        width: 40%;
     }
 
     #weather {
