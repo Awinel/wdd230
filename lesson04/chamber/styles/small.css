@@ -243,13 +243,13 @@ text-shadow: 2px 4px rgba(0, 0, 0, 0.6);
 }
 
 #newsRelease {
-    background-image: url("/wdd230/lesson04/chamber/images/newrelease.jpg");
+    background-image: url("/wdd230/lesson04/chamber/images/newrelease.webp");
     background-size: cover;
     color: #fff;
 }
 
 #spotlight02 {
-    background-image: url("/wdd230/lesson04/chamber/images/colors.jpg");
+    background-image: url("/wdd230/lesson04/chamber/images/colors.webp");
     background-size: contain;
 }
 
@@ -431,3 +431,36 @@ div.cards img {
 }
 
 
+/* -----------------------------contact-us.html----------------------------- */
+
+main.contactUs {
+    display: flex;
+    flex-direction: column;
+}
+main.contactUs :nth-child(1) {
+    font-size: 30px;
+}
+
+#contactForm {
+    background-color: #dda15e;
+    padding: 1em;
+}
+
+#contactForm label.top {
+    font-weight: bold;
+}
+
+#contactForm input {
+    max-width: 400px;
+}
+
+#contactForm input.submitBtn {
+    margin-top: 20px;
+}
+
+div.contactInfo {
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+}

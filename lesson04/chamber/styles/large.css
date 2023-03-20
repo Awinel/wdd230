@@ -113,4 +113,38 @@
     #visits {
         grid-column: 3 / -3;
     }
+
+    /* -----------------------------contact-us.html----------------------------- */
+
+    main.contactUs {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, auto);
+    }
+
+    main.contactUs h1 {
+        grid-column: 1 /-1;
+        grid-row: 1 / 2;
+    }
+
+    main.contactUs form.contactFrom {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+
+    main.contactUs div.contactInfo {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+    }
+
+
+    .contactedSbmt {
+        border
+    }
+
+    .contactedSbmt p {
+        background-color: rgba(240, 248, 255, 0.4);
+        margin-top: 20%;
+        
+    }
 }

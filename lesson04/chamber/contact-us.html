@@ -33,10 +33,28 @@
             </ul>
         </nav>
     </div>
-    <main id="directory">
-        <h1>Directory</h1>
-        <div class="cards"></div>
+    <main class="contactUs">
+        <h1>Contact Us</h1>
+        <form action="contacted.html" method="get" id="contactForm">
+        <h2>Contact Form</h2>
+        <h2>* Indicates required field</h2>
+        <label class="top" >*First Name <input type="text" name="fname" required></label>
+        <label class="top" >*Last Name <input type="text" name="lname" required></label>
+        <label class="top" >*Email Address <input type="email" name="email" required></label>
+        <label class="top" >Age <input type="number" name="age" min="1" max="110"></label>
+        <label class="top">*Tell us what can we do for you<textarea name="concern" cols="20" rows="10"></textarea></label>
 
+        <input type="submit" value="Send My Contact Info" class="submitBtn">
+    </form>
+    <div class="contactInfo">
+        <h2>Contact Information</h2>
+        <h3>Address</h3>
+        <p>C-484, Vallenar, Atacama</p>
+        <h3>Phone</h3>
+        <p>info@rivereño.org</p>
+        <h3>Email</h3>
+        <p>+(569) 5678 8982</p>
+    </div>
     </main>
     <footer>
         <div id="footerLogo">
@@ -52,6 +70,7 @@
     </footer>
 <script src="scripts/hamburger.js"></script>
 <script src="scripts/date.js"></script>
-<script src="scripts/directory.js"></script>
+<script src="scripts/weather.js"></script>
+<script src="lazlyloads.js"></script>
 </body>
 </html>
