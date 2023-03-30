@@ -1,94 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Playfair+Display:wght@500&display=swap');
 
-/* --------------------Main---------------------- */
-
-main {
-    text-align: center;
-    max-width: 780px;
+body {
+    max-width: 1300px;
     margin: auto;
-    background-color: #ffffff;
-    font-size: large;
-    
+    margin-top: 1%;
 }
 
-main p {
-    margin: auto;
-    padding-bottom: 5%;
-    width: 500px;
-}
-
-h1 {
-    background-color: #FF5722;
-    border-radius: 5px;
-    padding: 20px;
-    color: #FFFFFF;
-}
-
-/* --------------------Content---------------------- */
-
-.content h2 {
-    font-size: 30px;
-    max-width: 300px;
-    margin: auto;
-    margin-bottom: 2%;
-    background-color: #FF5722;
-    border-radius: 5px;
-}
-.logoImg {
-    padding-bottom: 5%;
-}
-
-/* --------------------target audience---------------------- */
-
-div.targetAudience p {
-    padding-bottom: 3%;
-    text-align: left;
-}
-
-/* --------------------Color Scheme---------------------- */
-
-table {
-    margin: auto;
-    margin-bottom: 3%;
-}
-
-table td {
-    border: 2px solid black;
-}
-
-#primary {
-    background-color: #3F51B5;
-}
-
-#secondary{
-    background-color:  #FFFFFF;
-}
-
-#accent_1{
-    background-color: #4CAF50;
-}
-
-#accent_2{
-    background-color: #FF5722;
-}
-
-/* --------------------Typography---------------------- */
-
-p.paragraph, p.heading {
-    padding: 0;
-    padding-bottom: 5%;
-}
-
-p.heading {
+h1, h2 , h3 {
     font-family: 'Playfair Display', serif;
 }
 
-p.paragraph {
+p {
     font-family: 'Open Sans', sans-serif;
 }
 
-p.coloredText {
+header {
+    display: flex;
+    
+    border: 1px solid black;
+    border-radius: 10px;
     background-color: #FF5722;
-    padding: 0;
-    margin-bottom: 5%;
+}
+
+
+.mainHeader {
+    display: grid;
+    grid-template-columns: 50% auto 2%;
+    text-align: center;
+}
+
+
+.mainHeader figure {
+ margin: auto;
+}
+
+.mainHeader figure img {
+    width: 50px;
+}
+
+.social {
+    display: grid;
+    grid-template-columns: repeat(3, 40px);
+    place-items: center;
+}
+
+.social figure {
+    width: 100%;
+}
+
+.social figure img {
+    width: 100%;
 }

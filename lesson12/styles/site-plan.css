@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Playfair+Display:wght@500&display=swap');
+
+/* --------------------Main---------------------- */
+
+main {
+    text-align: center;
+    max-width: 780px;
+    margin: auto;
+    background-color: #ffffff;
+    font-size: large;
+    
+}
+
+main p {
+    margin: auto;
+    padding-bottom: 5%;
+    width: 500px;
+}
+
+h1 {
+    background-color: #FF5722;
+    border-radius: 5px;
+    padding: 20px;
+    color: #FFFFFF;
+}
+
+/* --------------------Content---------------------- */
+
+.content h2 {
+    font-size: 30px;
+    max-width: 300px;
+    margin: auto;
+    margin-bottom: 2%;
+    background-color: #FF5722;
+    border-radius: 5px;
+}
+.logoImg {
+    padding-bottom: 5%;
+}
+
+/* --------------------target audience---------------------- */
+
+div.targetAudience p {
+    padding-bottom: 3%;
+    text-align: left;
+}
+
+/* --------------------Color Scheme---------------------- */
+
+table {
+    margin: auto;
+    margin-bottom: 3%;
+}
+
+table td {
+    border: 2px solid black;
+}
+
+#primary {
+    background-color: #3F51B5;
+}
+
+#secondary{
+    background-color:  #FFFFFF;
+}
+
+#accent_1{
+    background-color: #4CAF50;
+}
+
+#accent_2{
+    background-color: #FF5722;
+}
+
+/* --------------------Typography---------------------- */
+
+p.paragraph, p.heading {
+    padding: 0;
+    padding-bottom: 5%;
+}
+
+p.heading {
+    font-family: 'Playfair Display', serif;
+}
+
+p.paragraph {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p.coloredText {
+    background-color: #FF5722;
+    padding: 0;
+    margin-bottom: 5%;
+}
