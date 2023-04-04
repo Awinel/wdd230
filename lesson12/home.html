@@ -13,22 +13,26 @@
         to the local population and to tourists visiting the coastal areas. The
         theme should support healthy eating, organic bounty, and convenience."
     />
-    <link rel="shortcut icon" href="images/favicon.ico">
-    <link rel="stylesheet" href="styles/small.css">
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link rel="stylesheet" href="styles/small.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/large.css" />
   </head>
   <body>
     <header>
-        <div>
-        <nav class="container">
-            <ul>
-              <li><a href="home.html">Home</a></li>
-              <li><a href="fresh.html">Fresh</a></li>
-              <li><a href="about-us.html">About Us</a></li>
-              <li><a href="resources.html">Resources</a></li>
-            </ul>
-          </nav>
-          <button class="hamburguer"><div class="bar"></div></button>
-        </div>
+      <nav class="navBar">
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="fresh.html">Fresh</a></li>
+          <li><a href="about-us.html">About Us</a></li>
+          <li><a href="resources.html">Resources</a></li>
+        </ul>
+      </nav>
+      <div class="hamburguer" onclick="myFunction(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
       <div class="mainHeader">
         <h1>Bountiful Foods</h1>
         <figure>
@@ -55,79 +59,84 @@
     </header>
     <main>
       <div class="mainContent">
-      <div class="drinkCard">
-        <h2>Want to try making your own shake?</h2>
-        <a class="button" href="fresh.html">Make your own!</a>
-      </div>
-      <div class="turisticCard">
-        <div class="tCard">
-          <h2>Chen Art Gallery</h2>
-          <picture
-            ><img src="images/chenartgallery.jpg" alt="Chen Art Gallery"
-          /></picture>
-          <p>
-            This impressive collection features more than 1,000 artifacts
-            spanning 5,000 years of Chinese history, from the earliest Neolithic
-            Era pottery to Ming and Qing imperial palace collections. More than
-            15 exhibition rooms are dedicated to the arts and antiques of China.
-          </p>
-          <p>Tues-Fri: 10am-4pm Sat-Mon: Closed Call to schedule tour.</p>
-          <span
-            >Website:
-            <a href="http://www.chenartgallery.org/"
-              >http://www.chenartgallery.org/</a
-            ></span
-          >
+        <div class="drinkCard">
+          <h2>Want to try making your own shake?</h2>
+          <a class="button" href="fresh.html">Make your own!</a>
         </div>
-        <div class="tCard">
-          <h2>Torrance Beach</h2>
-          <picture
-            ><img src="images/torreancebeach.jpg" alt="Torreance Beach"
-          /></picture>
-          <p>
-            Beautiful and uncrowded, Torrance Beach is a local treasure with
-            plenty of parking and pretty views of the Palos Verdes peninsula.
-            Shops and restaurants are close by.
-          </p>
-          <span
-            >Website:
-            <a href="http://www.yelp.com/biz/torrance-beach-redondo"></a
-            >http://www.yelp.com/biz/torrance-beach-redondo</span
-          >
+        <div class="turisticCard">
+          <div class="tCard">
+            <h2>Chen Art Gallery</h2>
+            <picture
+              ><img src="images/chenartgallery.jpg" alt="Chen Art Gallery"
+            /></picture>
+            <p>
+              This impressive collection features more than 1,000 artifacts
+              spanning 5,000 years of Chinese history, from the earliest
+              Neolithic Era pottery to Ming and Qing imperial palace
+              collections. More than 15 exhibition rooms are dedicated to the
+              arts and antiques of China.
+            </p>
+            <p>Tues-Fri: 10am-4pm Sat-Mon: Closed Call to schedule tour.</p>
+            <span
+              >Website:
+              <a href="http://www.chenartgallery.org/"
+                >http://www.chenartgallery.org/</a
+              ></span
+            >
+          </div>
+          <div class="tCard">
+            <h2>Torrance Beach</h2>
+            <picture
+              ><img src="images/torreancebeach.jpg" alt="Torreance Beach"
+            /></picture>
+            <p>
+              Beautiful and uncrowded, Torrance Beach is a local treasure with
+              plenty of parking and pretty views of the Palos Verdes peninsula.
+              Shops and restaurants are close by.
+            </p>
+            <span
+              >Website:
+              <a href="http://www.yelp.com/biz/torrance-beach-redondo"
+                >http://www.yelp.com/biz/torrance-beach-redondo</a
+              ></span
+            >
+          </div>
+          <div class="tCard">
+            <h2>Madrona Marsh Preserve & Nature Center</h2>
+            <picture
+              ><img
+                src="images/maradonamarsh.jpg"
+                alt="Madrona Marsh Preserve & Nature Center"
+            /></picture>
+            <p>
+              An Island of Wilderness in the City A visit to the Madrona Marsh
+              Preserve is truly a unique experience. Come and explore one of the
+              last remaining vernal wetlands in Southern California. The
+              wetlands fill with rainwater in the winter and spring then slowly
+              dry by late August. This natural wet-dry creates unique habitats
+              and is the reason there is so much diversity of wildlife present.
+              Note: The entrance gate to the Preserve is directly across the
+              street from the Nature Center, where there's plenty of parking
+              available.
+            </p>
+            <span
+              >Website:
+              <a href="https://friendsofmadronamarsh.com/"
+                >https://friendsofmadronamarsh.com/</a
+              ></span
+            >
+          </div>
         </div>
-        <div class="tCard">
-          <h2>Madrona Marsh Preserve & Nature Center</h2>
-          <picture
-            ><img src="images/maradonamarsh.jpg" alt="Madrona Marsh Preserve & Nature Center"
-          /></picture>
-          <p>
-            An Island of Wilderness in the City A visit to the Madrona Marsh
-            Preserve is truly a unique experience. Come and explore one of the
-            last remaining vernal wetlands in Southern California. The wetlands
-            fill with rainwater in the winter and spring then slowly dry by late
-            August. This natural wet-dry creates unique habitats and is the
-            reason there is so much diversity of wildlife present. Note: The
-            entrance gate to the Preserve is directly across the street from the
-            Nature Center, where there's plenty of parking available.
-          </p>
-          <span
-            >Website:
-            <a href="https://friendsofmadronamarsh.com/"
-              >https://friendsofmadronamarsh.com/</a
-            ></span
-          >
-        </div>
-      </div>
-      <div class="weatherCard">
-        <div id="weather">
+        <div class="weatherCard">
+          <div id="weather">
             <h2>Weather</h2>
-            <img class="icon" src="" alt="weather icon">
-            <p><span class="temp"></span> &deg;C</p> 
+            <img class="icon" src="" alt="weather icon" />
+            <p><span class="temp"></span> &deg;C</p>
             <p class="weather"></p>
             <p class="hum"></p>
+          </div>
         </div>
       </div>
-    </div>
     </main>
     <footer>
       <h2>Bountiful Foods</h2>
