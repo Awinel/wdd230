@@ -19,12 +19,10 @@ p {
 
 header {
     display: flex;
-    
     border: 1px solid black;
     border-radius: 40px;
     background-color: #FF5722;
 }
-
 
 .mainHeader {
     display: grid;
@@ -54,7 +52,57 @@ header {
 .social figure img {
     width: 100%;
 }
+/* nav */
 
+
+
+.navBar ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.navBar ul a {
+    display: block;
+    text-decoration: none;
+    background-color: #FF5722;
+    font-family: 'Playfair Display', serif;
+}
+
+.navBar ul a:hover {
+    background-color: #3F51B5;
+    color: antiquewhite;
+}
+
+/* nav */
+
+/* hamburguerbtn */
+.hamburguer {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+
+  .change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+  }
+  
+  /* Fade out the second bar */
+  .change .bar2 {opacity: 0;}
+  
+  /* Rotate last bar */
+  .change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+  }
+
+/* hamburguerbtn */
 /* main */
 
 .mainContent {
@@ -69,8 +117,6 @@ header {
 }
 /* drinkCard */
 .drinkCard {
-    width: 400px;
-    height: 300px;
     border: 1px solid red;
     border-radius: 40px;
     margin: 2%;
@@ -95,6 +141,9 @@ header {
     border-radius: 40px;
 }
 
+.drinkCard a.button:hover {
+    background-color: #001cb8;
+}
 /* drinkcCard */
 
 /* turisticCard */
@@ -112,6 +161,13 @@ main picture {
 main picture img {
     width: 80%;
 }
+
+.turisticCard .tCard p {
+    padding: 3%;
+}
+
+
+
 /* turistiCard */
 
 .weatherCard {
@@ -143,5 +199,6 @@ footer figure {
 
 footer figure img {
     width: 50px;
+    margin-right: 20px;
 }
 /* fotter */
