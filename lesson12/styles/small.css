@@ -4,6 +4,9 @@ body {
     max-width: 1300px;
     margin: auto;
     margin-top: 1%;
+    background-image: url("/wdd230/lesson12/images/fruitbackground.png");
+    background-size: contain;
+    
 }
 
 h1, h2 , h3 {
@@ -18,7 +21,7 @@ header {
     display: flex;
     
     border: 1px solid black;
-    border-radius: 10px;
+    border-radius: 40px;
     background-color: #FF5722;
 }
 
@@ -51,3 +54,94 @@ header {
 .social figure img {
     width: 100%;
 }
+
+/* main */
+
+.mainContent {
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 3px solid red;
+    border-radius: 40px;
+    background-color: #FF5722;
+}
+/* drinkCard */
+.drinkCard {
+    width: 400px;
+    height: 300px;
+    border: 1px solid red;
+    border-radius: 40px;
+    margin: 2%;
+    background-image: url("/wdd230/lesson12/images/calltoactionbackground.png");
+    background-size: cover;
+}
+
+.drinkCard h2 {
+    padding: 10px;
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.726);
+}
+
+.drinkCard a.button {
+    text-decoration: none;
+    position: relative;
+    top: 50px;
+    background-color: #3F51B5;
+    padding: 20px;
+    color: #FFFFFF;
+    font-size: 20px;
+    border-radius: 40px;
+}
+
+/* drinkcCard */
+
+/* turisticCard */
+.turisticCard {
+    border: 1px solid red;
+    border-radius: 40px;
+    margin: 2%;
+    background-color: #f2cc8f;
+}
+
+main picture {
+    width: 100%;
+}
+
+main picture img {
+    width: 80%;
+}
+/* turistiCard */
+
+.weatherCard {
+    background-color: #3F51B5;
+    width: 400px;
+    height: 300px;
+    border: 1px solid red;
+    border-radius: 40px;
+    margin: 2%;
+    font-size: 20px;
+}
+
+/* main */
+
+/* fotter */
+footer {
+    display: grid;
+    grid-template-columns: 150px 100px 150fr;
+    background-color: #FF5722;
+    border-radius: 40px;
+    align-items: center;
+    text-align: center;
+    font-size: 10px;
+}
+
+footer figure {
+    width: 100%;
+}
+
+footer figure img {
+    width: 50px;
+}
+/* fotter */
