@@ -18,16 +18,29 @@ p {
 }
 
 header {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     border: 1px solid black;
     border-radius: 40px;
     background-color: #FF5722;
 }
 
+.navBar {
+    grid-column: 1 / -1;
+    grid-row: 2 / 3;
+}
+
+.hamburguer {
+    grid-column: 1 / 2;
+    align-self: center;
+    justify-self: center;
+}
+
 .mainHeader {
     display: grid;
-    grid-template-columns: 50% auto 2%;
+    grid-template-columns: 50% auto ;
     text-align: center;
+    grid-column: 2 / 4;
 }
 
 
@@ -43,6 +56,7 @@ header {
     display: grid;
     grid-template-columns: repeat(3, 40px);
     place-items: center;
+    grid-column: 4 / 5;
 }
 
 .social figure {
@@ -54,27 +68,40 @@ header {
 }
 /* nav */
 
-
-
-.navBar ul {
-    display: flex;
+li {
     list-style: none;
-    justify-content: space-around;
 }
 
-.navBar ul a {
-    display: block;
+nav a {
+    color: #FFFFFF;
     text-decoration: none;
-    background-color: #FF5722;
+    font-size: 1rem;
     font-family: 'Playfair Display', serif;
 }
 
-.navBar ul a:hover {
-    background-color: #3F51B5;
-    color: antiquewhite;
+.navBar {
+    display: flex;
+    justify-content: center;
 }
 
-/* nav */
+.nav-menu {
+    opacity: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
+    gap: 60px;
+    transition: 0.6s ease-out;
+}
+
+.nav-link {
+    transition: 0.7s ease;
+}
+
+.nav-link:hover {
+    color: #4CAF50;
+}
+
 
 /* hamburguerbtn */
 .hamburguer {
@@ -87,22 +114,41 @@ header {
     height: 5px;
     background-color: #333;
     margin: 6px 0;
-    transition: 0.4s;
-  }
+    transition: 0.5s;
+    }
+
+.bar2 {
+    transition: 0.2s;
+}
 
   .change .bar1 {
     transform: translate(0, 11px) rotate(-45deg);
   }
   
   /* Fade out the second bar */
-  .change .bar2 {opacity: 0;}
+  .change .bar2 {
+    width: 0px;
+}
   
   /* Rotate last bar */
   .change .bar3 {
     transform: translate(0, -11px) rotate(45deg);
   }
 
+.active {
+    opacity: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
+    gap: 60px;
+    transition: 0.6s ease-in;
+  }
+
 /* hamburguerbtn */
+
+/* nav */
+
 /* main */
 
 .mainContent {
@@ -111,29 +157,30 @@ header {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    border: 3px solid red;
+    border: 1px solid black;
     border-radius: 40px;
     background-color: #FF5722;
 }
 /* drinkCard */
 .drinkCard {
-    border: 1px solid red;
+    border: 1px solid black;
     border-radius: 40px;
     margin: 2%;
     background-image: url("/wdd230/lesson12/images/calltoactionbackground.png");
     background-size: cover;
+    height: 200px;
 }
 
 .drinkCard h2 {
-    padding: 10px;
-    margin-top: 50px;
+    padding: 5px;
+    border-radius: inherit;
     background-color: rgba(255, 255, 255, 0.726);
 }
 
 .drinkCard a.button {
-    text-decoration: none;
     position: relative;
     top: 50px;
+    text-decoration: none;
     background-color: #3F51B5;
     padding: 20px;
     color: #FFFFFF;
@@ -148,7 +195,7 @@ header {
 
 /* turisticCard */
 .turisticCard {
-    border: 1px solid red;
+    border: 1px solid black;
     border-radius: 40px;
     margin: 2%;
     background-color: #f2cc8f;
@@ -174,7 +221,7 @@ main picture img {
     background-color: #3F51B5;
     width: 400px;
     height: 300px;
-    border: 1px solid red;
+    border: 1px solid black;
     border-radius: 40px;
     margin: 2%;
     font-size: 20px;
