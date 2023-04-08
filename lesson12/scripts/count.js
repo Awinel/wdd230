@@ -7,7 +7,6 @@ let counter = drinksNum
 form.addEventListener("submit", function (e) {
     e.preventDefault();
   });
-
 submit.addEventListener("click", function () {
     counter++
     localStorage.setItem("drinksNum", counter)
