@@ -22,10 +22,15 @@
     <header>
       <nav class="navBar">
         <ul class="nav-menu">
-          <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="fresh.html">Fresh</a></li>
-          <li class="nav-item"><a class="nav-link" href="about-us.html">About Us</a></li>
-          <li class="nav-item"><a class="nav-link" href="resources.html">Resources</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="fresh.html">Fresh</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about-us.html">About Us</a>
+          </li>
         </ul>
       </nav>
       <div class="hamburguer">
@@ -64,13 +69,17 @@
           <a class="button" href="fresh.html">Make your own!</a>
         </div>
         <div class="mixCard">
-          <h2>The total shakes<br>you have made are:</h2>
-          <span id="shakesNumber">0</span>
-          <figure><img src="images/blender.svg" alt="Blender"></figure>
+          <h2>
+            The total shakes<br />you have made are:<br /><span
+              id="shakesNumber"
+              >0</span
+            >
+          </h2>
+          <figure><img src="images/blender.svg" alt="Blender" /></figure>
         </div>
         <div class="contentImg">
           <figure>
-            <img src="images/mainphoto.png" alt="Fruits">
+            <img src="images/mainphoto.png" alt="Fruits" />
           </figure>
         </div>
         <div class="turisticCard">
@@ -140,10 +149,21 @@
         <div class="weatherCard">
           <div id="weather">
             <h2>Weather</h2>
-            <img class="icon" src="" alt="weather icon" />
-            <p><span class="temp"></span> &deg;C</p>
-            <p class="weather"></p>
-            <p class="hum"></p>
+            <div class="weather-today">
+              <img class="icon1" src="" alt="weather icon" />
+              <h2 class="weather"></h2>
+              <h2><span class="temp1"></span> &deg;C</h2>
+              <img class="humidity" src="images/humidity.png" alt="Humidity">
+              <h2 class="hum"></h2>
+            </div>
+            <div class="weather-forecast">
+              <img class="icon2" src="" alt="weather icon" />
+              <h2><span class="temp2"></span> &deg;C</h2>
+              <img class="icon3" src="" alt="weather icon" />
+              <h2><span class="temp3"></span> &deg;C</h2>
+              <img class="icon4" src="" alt="weather icon" />
+              <h2><span class="temp4"></span> &deg;C</h2>
+            </div>
           </div>
         </div>
       </div>
@@ -158,10 +178,11 @@
         <h3>+1 492-814-1436</h3>
         <h3>bountifulfoods@business.org</h3>
       </div>
+      <h3 class="lastModif">a</h3>
     </footer>
   </body>
   <script src="scripts/weather.js"></script>
   <script src="scripts/hamburguer.js"></script>
-  <script src="scripts/gallery.js"></script>
-  <script src="scripts/count.js"></script>
+  <script src="scripts/shakes.js"></script>
+  <script src="scripts/lastmodif.js"></script>
 </html>

@@ -96,4 +96,23 @@
         width: 50px;
         margin-right: 65px;
     }
+
+    .weather-forecast {
+        border-top: 5px dotted;
+        margin:0 30px ;
+        display: block;
+        padding-top: 10px;
+    }
+
+    .weather-forecast h2 {
+        border-bottom: 5px dotted;
+        margin-top: -20px;
+        margin-bottom: 20px;
+    }
+
+    .weather-forecast :nth-last-child(1){
+        border-bottom: none;
+        
+    }
+
 }
