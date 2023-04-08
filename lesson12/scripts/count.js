@@ -1,13 +1,17 @@
 const form = document.querySelector("form");
 const submit = document.querySelector(".submitBtn");
 const drinksNum = localStorage.getItem("drinksNum")
-
+const input = document.getElementById("fname");
 let counter = drinksNum
 
 form.addEventListener("submit", function (e) {
     e.preventDefault();
   });
 submit.addEventListener("click", function () {
+  if (input.value.trim().length === 0) {
+    submit.removeEventListener("click")
+  }
+
     counter++
     localStorage.setItem("drinksNum", counter)
     document.getElementById("number").value = counter;
