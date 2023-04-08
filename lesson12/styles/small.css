@@ -191,7 +191,23 @@ nav a {
 .drinkCard a.button:hover {
     background-color: #001cb8;
 }
+
+.contentImg {
+    display: none;
+}
 /* drinkcCard */
+
+.mixCard {
+    background-color: #f2cc8f;
+    border-radius: 40px;
+    height: 90%;
+    border: 1px solid black;
+    margin: 2%;
+}
+
+.mixCard figure img {
+    width: 50%;
+}
 
 /* turisticCard */
 .turisticCard {
@@ -232,7 +248,7 @@ main picture img {
 /* fotter */
 footer {
     display: grid;
-    grid-template-columns: 150px 100px 150fr;
+    grid-template-columns: repeat(3, 1fr);
     background-color: #FF5722;
     border-radius: 40px;
     align-items: center;
@@ -246,6 +262,91 @@ footer figure {
 
 footer figure img {
     width: 50px;
-    margin-right: 20px;
+    margin-right: 60px;
 }
 /* fotter */
+
+/* fresh */
+
+.freshForm {
+    background-color: #f2cc8f;
+    margin: 1%;
+    padding: 2%;
+    border-radius: 40px;
+    border: #333 solid 1px;
+}
+
+form label.top {
+    display: block;
+    padding-bottom: 1rem;
+    font-size: 1rem;
+}
+
+form label.top input {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgb(255, 255, 255);
+}
+
+label.election , select {
+    display: block;
+    font-size: 1rem;
+}
+
+select {
+    margin-bottom: 20px;
+}
+
+form label.top input:required {
+    border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: green solid 6px
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 1rem 0 1rem 2%;
+    width: 95%;
+    font-size: 20px;
+}
+
+form input.submitBtn:hover {
+    background-color: #2c852f;
+    cursor: pointer;
+}
+
+/* submission */
+
+#subTitle {
+    background-color: #4CAF50;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    width: 300px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.submission {
+    background-color: #ffffffa1;
+    border-radius: 40px;
+    padding: 20px;
+}
+
+
+/* submission */
+
+/* fresh */

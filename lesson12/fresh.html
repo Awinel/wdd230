@@ -10,8 +10,90 @@
         food options, including organic, made to order, fruit drinks and fruit bags,
         to the local population and to tourists visiting the coastal areas. The
         theme should support healthy eating, organic bounty, and convenience.">
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link rel="stylesheet" href="styles/small.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/large.css" />
 </head>
 <body>
-    
+    <header>
+        <nav class="navBar">
+          <ul class="nav-menu">
+            <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="fresh.html">Fresh</a></li>
+            <li class="nav-item"><a class="nav-link" href="about-us.html">About Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="resources.html">Resources</a></li>
+          </ul>
+        </nav>
+        <div class="hamburguer">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+        <div class="mainHeader">
+          <h1>Bountiful Foods</h1>
+          <figure>
+            <a href="home.html"><img src="images/fuit_logo.png" alt="Logo" /></a>
+          </figure>
+        </div>
+        <div class="social">
+          <figure>
+            <a href="https://www.instagram.com/"
+              ><img src="images/instagramlogo.png" alt="Instagram Logo"
+            /></a>
+          </figure>
+          <figure>
+            <a href="https://www.facebook.com/"
+              ><img src="images/facebooklogo.png" alt="Facebook Logo"
+            /></a>
+          </figure>
+          <figure>
+            <a href="https://twitter.com/?lang=es"
+              ><img src="images/twitterlogo.png" alt="Twitter Logo"
+            /></a>
+          </figure>
+        </div>
+      </header>
+    <main>
+        <div class="freshForm">
+        <form>
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label class="top">First Name* <input id="fname" type="text" name="fname" required></label>
+                <label class="top">Last Name* <input id="lname" type="text" name="lname" required></label>
+                <label class="top">Phone <input id="phone" type="tel" name="phone" placeholder=" 123456789"></label>
+                <label class="top">Email* <input id="email" type="email" name="email" placeholder="something@gmail.com" required></label>
+                
+            </fieldset>    
+            <fieldset>
+                <legend>Fruit Selection</legend>
+                <label for="fruits01" class="election">Fruits</label>
+                <select id="fruits01" name="fruits01"></select>
+                <label for="fruits02" class="election">Fruits</label>
+                <select id="fruits02" name="fruits02"></select>
+                <label for="fruits03" class="election">Fruits</label>
+                <select id="fruits03" name="fruits03"></select>
+                <fieldset>
+                    <legend>Additional Information</legend>
+                    <label class="top">Special Instructions <input id="extraInfo" type="text"></label>
+            </fieldset>
+            <input type="submit" value="Order My Shake" class="submitBtn">
+        </form>
+    </div>
+        <footer>
+            <h2>Bountiful Foods</h2>
+            <figure>
+              <a href="home.html"><img src="images/fuit_logo.png" alt="Logo" /></a>
+            </figure>
+            <div class="info">
+              <h3>Carlsbad, California</h3>
+              <h3>+1 492-814-1436</h3>
+              <h3>bountifulfoods@business.org</h3>
+            </div>
+          </footer>
+    </main>
 </body>
+<script src="scripts/hamburguer.js"></script>
+<script src="scripts/fruitselector.js"></script>
+<script src="scripts/count.js"></script>
 </html>
