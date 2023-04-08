@@ -4,7 +4,7 @@ body {
     max-width: 1300px;
     margin: auto;
     margin-top: 1%;
-    background-image: url("/wdd230/lesson12/images/fruitbackground.png");
+    background-image: url("/wdd230/lesson12/images/fruitbackground.webp");
     background-size: contain;
     
 }
@@ -166,7 +166,7 @@ nav a {
     border: 1px solid black;
     border-radius: 40px;
     margin: 2%;
-    background-image: url("/wdd230/lesson12/images/calltoactionbackground.png");
+    background-image: url("/wdd230/lesson12/images/calltoactionbackground.webp");
     background-size: cover;
     height: 200px;
 }
